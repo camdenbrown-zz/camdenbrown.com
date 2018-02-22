@@ -3,3 +3,17 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.app-container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  height: 100vh;
+
+  .navigation-menu {
+    background: black;
+  }
+
+  .subject {
+    background: antiquewhite;
+  }
+}
