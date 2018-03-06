@@ -1,6 +1,7 @@
 @import "navigation-menu";
-@import "subject";
 @import "blog";
+@import "about-me";
+@import "footer";
 @import "mixins/mixins";
 
 body {
@@ -12,10 +13,11 @@ body {
 .app-container {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 10% 10% 80%;
-  grid-template-areas: "title"
-                       "navMenu"
-                       "subject";
+  grid-template-rows: 10% 85% 5%;
+  grid-template-areas: "header"
+                       "subject"
+                       "footer";
   height: 100vh;
   background: #17181A;
+  overflow: auto;
 }

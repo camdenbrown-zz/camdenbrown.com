@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 
-class Subject extends Component {
+class Blog extends Component {
   render() {
     return (
       <div className={"subject"}>
+        <p>Blogs coming soon...</p>
       </div>
     );
   };
 }
 
-export default Subject;
+export default Blog;

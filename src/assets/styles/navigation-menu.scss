@@ -1,16 +1,14 @@
 .navigation-menu {
   text-align: center;
+  grid-area: header;
 
   .title {
-    grid-area: title;
     font-size: 1.5em;
     margin-right: 1em;
     color: #fff;
   }
 
   .nav-menu-items {
-    grid-area: navMenu;
-
     a {
       text-decoration: none;
       font-size: 13px;
