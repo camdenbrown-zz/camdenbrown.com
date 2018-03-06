@@ -1,0 +1,21 @@
+.navigation-menu {
+  text-align: center;
+
+  .title {
+    grid-area: title;
+    font-size: 1.5em;
+    margin-right: 1em;
+    color: #fff;
+  }
+
+  .nav-menu-items {
+    grid-area: navMenu;
+
+    a {
+      text-decoration: none;
+      font-size: 13px;
+      margin-right: 1em;
+      color: #D1D1D2;
+    }
+  }
+}

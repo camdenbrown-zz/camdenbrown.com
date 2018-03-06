@@ -5,7 +5,7 @@ import Subject from "./subject/subject";
 class App extends Component {
   render() {
     return (
-      <div className="app-container">
+      <div className={"app-container"}>
         <NavigationMenu/>
         <Subject/>
       </div>

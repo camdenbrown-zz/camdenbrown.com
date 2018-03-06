@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-class Subject extends Component {
+class AboutMe extends Component {
   render() {
     return (
-      <div className={"subject"}>
+      <div>
       </div>
     );
   };
 }
 
-export default Subject;
+export default AboutMe;
