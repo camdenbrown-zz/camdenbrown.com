@@ -22,6 +22,22 @@
         color: mediumpurple;
         font-size: 35px;
         margin-left: .5em;
+        position: relative;
+      }
+
+      i:hover::after {
+        content: attr(data-tooltip);
+        color: #D1D1D2;
+        position: absolute;
+        border-radius: 9px;
+        bottom: 125%;
+        left: -50%;
+        width: 90px;
+        height: auto;
+        font-size: 15px;
+        background: #843a80;
+        text-align: center;
+        font-family: 'Comfortaa', cursive;
       }
     }
   }
