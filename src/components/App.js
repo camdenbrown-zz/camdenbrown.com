@@ -13,6 +13,7 @@ class App extends Component {
         <NavigationMenu/>
         <Route path={'/blog'} component={Blog}/>
         <Route path={'/about'} component={AboutMe}/>
+        <Route exact path={'/'} component={Blog}/>
         <Footer/>
       </div>
     );
