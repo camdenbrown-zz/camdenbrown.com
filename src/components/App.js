@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import NavigationMenu from "./navigation-menu";
 import Blog from "./blog";
-import AboutMe from "./about-me";
-import { Route} from "react-router-dom";
+import { Route } from "react-router-dom";
 import Footer from "./footer";
+import AboutMe from "./about-me";
 
 
 class App extends Component {
@@ -11,10 +11,10 @@ class App extends Component {
     return (
       <div className={"app-container"}>
         <NavigationMenu/>
+        <Footer/>
+        <Route exact path={'/'} component={Blog}/>
         <Route path={'/blog'} component={Blog}/>
         <Route path={'/about'} component={AboutMe}/>
-        <Route exact path={'/'} component={Blog}/>
-        <Footer/>
       </div>
     );
   }
