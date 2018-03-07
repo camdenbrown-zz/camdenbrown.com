@@ -1,6 +1,28 @@
 .subject {
   grid-area: subject;
-  align-items: center;
-  justify-items: center;
-  display: grid;
+  width: 50%;
+  margin: auto;
+  grid-template-rows: 10% 40% 40%;
+
+  .description {
+    color: #D1D1D2;
+    font-size: 14px;
+    line-height: 1.4em;
+  }
+
+  .learning-container {
+    left: 0;
+
+    h4 {
+      color: #D1D1D2;
+    }
+
+    .icon-container {
+      i {
+        color: mediumpurple;
+        font-size: 35px;
+        margin-left: .5em;
+      }
+    }
+  }
 }
