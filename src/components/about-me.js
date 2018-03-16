@@ -27,7 +27,6 @@ class AboutMe extends Component {
             <i data-tooltip="HTML5" className={"icon-html5"}></i>
             <i data-tooltip="CSS3" className={"icon-css3"}></i>
             <i data-tooltip="JavaScript" className={"icon-javascript"}></i>
-            <i data-tooltip="Perl" className={"icon-perl"}></i>
           </div>
         </div>
 
